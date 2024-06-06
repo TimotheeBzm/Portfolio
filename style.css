@@ -1,0 +1,66 @@
+/* Style du corps de la page */
+body {
+  font-family: Arial, sans-serif; /* Police de caractère par défaut */
+  background-color: #f0f0f0; /* Couleur de fond de la page */
+}
+
+/* Style du conteneur des images */
+.image-container {
+  display: flex;
+  flex-direction: column; /* Les images sont empilées verticalement */
+  justify-content: center; /* Centrer les éléments verticalement */
+  align-items: center; /* Centrer les éléments horizontalement */
+  gap: 20px; /* Espacement entre les images */
+  margin: 5% auto; /* Marge externe haut et bas, centrage horizontal */
+  max-width: 800px; /* Largeur maximale du conteneur */
+  padding: 20px; /* Espacement intérieur */
+  background-color: #fff; /* Couleur de fond du conteneur */
+  border-radius: 10px; /* Bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Style des images */
+.image-container .image img {
+  max-width: 100%; /* Largeur maximale de l'image */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  border: 2px solid #333; /* Bordure autour de chaque image */
+  border-radius: 8px; /* Bordure arrondie */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Légère ombre portée */
+}
+
+
+/* Style du texte de l'image */
+.image-container .image-text {
+  text-align: center; /* Centrer le texte horizontalement */
+  font-weight: bold; /* Texte en gras */
+  font-size: 22px; /* Taille de la police augmentée */
+  margin-top: 5px; /* Espacement haut du texte */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.cahierdescharges {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
