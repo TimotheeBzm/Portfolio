@@ -11383,7 +11383,7 @@ p {
 }
 
 .testimonial-card-body {
-  text-align: left;
+  text-align: justify;
   border: 1px solid #dee2e6;
   background: #fff;
   padding: 20px 20px 20px 60px;
